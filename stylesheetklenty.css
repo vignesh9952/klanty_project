@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.navbar-main{
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: blue;
+}
+
+.listing{
+    display: flex;
+}
+
+.navbar-listing{
+    padding: 0%;
+    margin: 0px;
+     list-style: none;
+     color: blue;
+     align-items: center;
+}
+
+
+.navbar-list{
+    padding:11px;
+}
+
+.navlink{
+    
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #05034E;
+   text-decoration: none;
+}
+
+.container-right{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-decoration: none;
+color: #05034E;
+}
+
+.btn1{
+    margin-left: 25px;
+    font-size: 14px;
+text-transform: capitalize;
+color: #5856CE;
+border: solid;
+}
+.btn2{
+    font-size: 14px;
+    margin-left: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+   color: white;
+     background: #5856CE;
+    border-radius: 4px;
+}
+/* sectionmain */
+
+.mainsec_txt{
+    font-family: 'Paytone One';
+    
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+}
+
+.mainsec_para{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.01em;
+color: #343434;
+}
+
+.purplecolor{
+    color: #120155;
+}
+
+.mainsec_btn{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 14px;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+color: #FFFFFF;
+width: 129px;
+height: 45px;
+background: #5856CE;
+border-radius: 4px;
+}
+
+/* mainsection */
+.main{
+    background: linear-gradient(180deg,
+     rgba(235, 246, 255, 0) -12.61%,
+      #EBF6FF 50.78%,
+     rgba(235, 246, 255, 0) 114.7%);
+
+}
+.CRMmain{
+    font-family: 'Paytone One';
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: 0.01em;
+color: #120155;
+}
+
+.Poppins{
+    font-family: "Poppins";
+}
+
+.threeboxhead{
+    display: flex;
+    justify-content: space-around;
+}
+
+.threebox{
+    width: 383px;
+    padding:25px;
+height: 366px;
+background: #FFFFFF;
+box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+border-radius: 20px;
+}
+
+.containerpara{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.01em;
+color: #120155;
+}
+
+.subheading{
+   font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.01em;
+color: #343434;
+
+}
+
+/* footer */
+
+.carouselhead{
+font-family: 'Paytone One';
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: 0.01em;
+color: #120155;
+}
+.carouselpara{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+color: #120155;
+}
+.firstslide{
+    display: flex;
+    justify-content: space-between;
+}
+.jump{
+    display: flex;
+    align-items: flex-start;
+}
+.jumpimg{
+    padding-right: 20px;
+}
+.jumppara{
+    padding-left: 20px;
+    border-left: solid;
+}
+/* 
+javascriptcoderelate */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev{
+      left: -50px;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
