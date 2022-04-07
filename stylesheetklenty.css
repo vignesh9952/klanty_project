@@ -99,7 +99,7 @@
     }
     
     .login{
-    font-family: 'Open Sans';
+    font-family: 'poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -319,7 +319,7 @@ javascriptcoderelate */
   
   .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 4.5s;
   }
   
   @keyframes fade {
