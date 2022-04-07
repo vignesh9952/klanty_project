@@ -31,16 +31,31 @@
 .carouselpara{
     font-size: 20px !important;
 }
-.btn_wrapper{
-    display: flex !important;
-    justify-content: center;
-}
+
 }
 @media only screen and (max-width:540px){
     #photocenter{
         align-items: center;
         justify-content: center;
-        display: flex !important; 
+        display: flex !important;
+        padding-bottom: 30px !important; 
+    }
+    .carouselhead{
+        font-size: 20px !important;
+        padding: 1rem !important;
+    }
+    
+}
+@media only screen and (max-width:400px){
+    .carouselhead{
+        font-size: 17px !important;
+        padding: 10px !important;
+    }
+    .mainsec_txt{
+        font-size: 27px !important;
+    }
+    .CRMmain{
+        font-size: 34px !important;
     }
 }
     
@@ -241,7 +256,7 @@ color: #120155;
 }
 .firstslide{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-between;
 }
 .jump{
@@ -319,7 +334,7 @@ javascriptcoderelate */
   
   .fade {
     animation-name: fade;
-    animation-duration: 4.5s;
+    animation-duration: 6s;
   }
   
   @keyframes fade {
