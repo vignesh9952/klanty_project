@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        bootstrap_templete
+       klentyAssignment
     </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,52 +19,58 @@
     <link rel="stylesheet" href="stylesheetklenty.css">  
 </head>
 <body>
-    <div class="header container-fluid">
-        <div class="d-flex navbar-main" >
-            <div class="navbar-brand ">
-                <img src="Big_Logo.png" alt="klentylogo">
-                </div>
-              <div class="listing">
-                <ul class="navbar-listing d-flex">
-                   <li class="navbar-list">
-                      <a href="#"class="navlink">platform</a>
-                   </li>
-                   <li class="navbar-list">
-                    <a href="#" class="navlink">Pricing</a>
-                   </li>
-                   <li class="navbar-list">
-                    <a href="#" class="navlink">Acceleration</a>
-                   </li>
-                   <li class="navbar-list">
-                    <a href="#" class="navlink">Resources</a>
-                   </li>
-                   <li class="navbar-list">
-                    <a href="#" class="navlink">Customer Stories </a>
-                   </li>
-                </ul>
-             </div>
-             <div class="container-right ">
-                 <a href="#" class="login">Login</a>
+    <nav class="navbar navbar-expand-lg navbar-light d-flex navbar-main" >
+        <div class="header container-fluid">
+        <img class="navbar-brand" src="Big_Logo.png" alt="klentylogo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsiable">
+                <span class="navbar-toggler-icon"></span>
+              </button>          
+            <div class="listing d-lg-flex collapse navbar-collapse" id="collapsiable">
+            <div class="d-flex justify-content-lg-start" id="toplisting">
+                <ul class="navbar-nav navbar-listing d-flex">
+               <li class="nav-item"id="navitem">
+                  <a href="#"class="navlink">platform</a>
+               </li>
+               <li class="nav-item"id="navitem">
+                <a href="#" class="navlink">Pricing</a>
+               </li>
+               <li class="nav-item"id="navitem">
+                <a href="#" class="navlink">Acceleration</a>
+               </li>
+               <li class="nav-item"id="navitem">
+                <a href="#" class="navlink">Resources</a>
+               </li>
+               <li class="nav-item" id="navitem">
+                <a href="#" class="navlink">Customer Stories </a>
+               </li>
+            </ul>
+        </div>
+         <div class="container-right justify-content-lg-end p-lg-0">
+             <a href="#" class=" nav-item login">Login</a>
 
-                 <a href="#" class="btn btn1 d-flex w-77">SCHEDULE DEMO</a>
-                 <a href="#" class="btn btn2 d-flex w-77">TRY for free</a>
-             </div>
+             <a href="#" class="nav-item mx-md-3  btn btn1 d-flex w-77">SCHEDULE DEMO</a>
+             <a href="#" class="nav-item btn btn2 md-fs-5 d-flex w-77">TRY for free</a>
+         </div>
         </div>
     </div>
+    </nav>
     <!-- para and bigimage -->
-    <section class="container d-flex justify-content-evenly pt-5">
-        <div class="col-6 mainsec1 pt-5">
+
+    <section class="container d-flex flex-wrap justify-content-evenly pt-5">
+        <div class="col-12 col-lg-6 mainsec1 pt-5">
            <p class="mainsec_txt">Don't just integrate 
             <span class="purplecolor">Accelerate your CRM</span></p>
             <p class="mainsec_para pb-3">
                 Propel your sales team into a state of flow with CRM Accelerations.
                  Switch out boring hours of repetitive work with high-impact activities.
                  Build a repeatable sales process. 
-            </p>     
+            </p>  
+            <div class="btn_wrapper">
             <button class="mainsec_btn">GET STARTED</button>
+            </div>
         </div>
-        <div class="col=6">
-           <img src="Group_1006.png" alt="group_1006_pic" >
+        <div class="col=12 col-lg-6" >
+           <img src="Group_1006.png" alt="group_1006_pic" class=" imgwidth" >
         </div>
     </section>
 
@@ -75,7 +81,7 @@
             <h2 class="CRMmain pb-3">CRM Acceleration</h2>
             <p class="Poppins pb-5"> Everything CRM Integrations was supposed to be. And more.</p>
         </div>       
-        <div class="container threeboxhead p-0 pb-5">
+        <div class="container-fluid flex-wrap threeboxhead pb-5">
             <div class="threebox">
                 <div ><img src="Group_1006-3.png" alt="robopic"></div>
                 <p class="containerpara pt-3"> Never update your contacts manually</p>
@@ -104,62 +110,63 @@
     </main>
     <!-- footer -->
 
-    <div class="p-5">
+    <div class="p-2">
         <h2 class="carouselhead p-5 text-center">What our customers have to say</h2>
     </div>
 
-    <!-- Slideshow container -->
-<div class="slideshow-container">
+   <!--footer Slideshow container -->
+ <div class="slideshow-container">
 
     
-    <div class="mySlides fade">
-    <div class="firstslide ">
-        <div class="col-7">
-          <img src="Vector.png" alt="vectorpic">
-            <p class="carouselpara">
-              From someone who is relatively new to sales and lead generating,
-               Klenty was a highly effective and simple-to-use tool that allowed me to quickly generate leads
-               in a genuine and customisable manner
-             </p>
-             <div class="jump">
-               <img src="jump-logo.png" class="jumpimg" alt="jumplogo">
-               <p class="jumppara" ><strong>Sam W </strong><br>
-                Head of Demand Generation , Jump
-                </p>
-             </div>
-         </div>
-        <div class="col-4">
-            <img src="sam.png" alt="x">
+    <div>
+        <div class="mySlides fade">
+            <div class="firstslide flex-md-row p-3 justify-content-end">
+                <div class="col-sm-12 col-md-7">
+                  <img src="Vector.png" alt="vectorpic">
+                    <p class="carouselpara">
+                      From someone who is relatively new to sales and lead generating,
+                       Klenty was a highly effective and simple-to-use tool that allowed me to quickly generate leads
+                       in a genuine and customisable manner
+                     </p>
+                     <div class="jump">
+                       <img src="jump-logo.png" class="jumpimg" alt="jumplogo">
+                       <p class="jumppara" ><strong>Sam W </strong><br>
+                        Head of Demand Generation , Jump
+                        </p>
+                     </div>
+                 </div>
+                <div class="col-sm-12 col-md-4" id="photocenter">
+                    <img src="sam.png" alt="x" class="sam">
+                </div>
+            </div>
         </div>
     </div>
-</div>
-   
-    
-<div class="mySlides fade">
-   <div class="firstslide ">
-    <div class="col-7 ">
-       <img src="Vector.png" alt="vectorpic">
-         <p class="carouselpara">
-            Klenty has helped us engage a far greater number of leads per week,
-             resulting in an outbound revenue jump of 93%
-         </p>
-         <div class="jump">
-           <img src="double-logo.png" class="jumpimg" alt="double-logo">
-           <p class="jumppara" ><strong>Adam Weinger</strong><br>
-            President,Double The Donation  
-            </p>
-         </div>
-      </div>
-        <div class="col-4">
-           <img src="adam.png" alt="x">
+
+    <div class="mySlides fade">
+        <div class="firstslide flex-md-row p-3 justify-content-end">
+         <div class="col-sm-12 col-md-7">
+            <img src="Vector.png" alt="vectorpic">
+              <p class="carouselpara">
+                 Klenty has helped us engage a far greater number of leads per week,
+                  resulting in an outbound revenue jump of 93%
+              </p>
+              <div class="jump">
+                <img src="double-logo.png" class="jumpimg" alt="double-logo">
+                <p class="jumppara" ><strong>Adam Weinger</strong><br>
+                 President,Double The Donation  
+                 </p>
+              </div>
+           </div>
+             <div class="col-sm-12 col-md-4" id="photocenter">
+                <img src="adam.png" alt="x">
+             </div>
         </div>
-   </div>
-</div>
+     </div>
 
     
   <div class="mySlides fade">
-    <div class=" firstslide ">
-        <div class="col-7">
+    <div class=" firstslide flex-md-row p-3 justify-content-end">
+        <div class="col-sm-12 col-md-7">
           <img src="Vector.png" alt="vectorpic">
             <p class="carouselpara">
                 It changed our business. Klenty allowed our outbounds sales team to leverage their time and skills 
@@ -171,19 +178,19 @@
                 </p>
              </div>
          </div>
-        <div class=" col-4">
+        <div class=" col-sm-12 col-md-4" id="photocenter">
             <img src="gavin.png" alt="x">
         </div>
     </div>
 </div>
   
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!-- Next and previous buttons--> 
+    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
   </div>
   <br>
   
-  <!-- The dots/circles -->
+   <!--The dots/circles--> 
   <div style="text-align:center; padding-bottom: 40px;">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>

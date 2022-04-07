@@ -1,78 +1,129 @@
-*{
-    margin: 0px;
-    padding: 0%;
+@media only screen and (min-width:768px){
+    .btn1{
+        font-size: 14px !important; 
+    }
+    .btn2{
+        font-size: 14px !important;
+    }
+    }
+@media only screen and (min-width:540px) {
+    .imgwidth{
+        width: 525px !important;
+    }
+}    
+
+@media only screen and (min-width:320px) and (max-width:720px){
+    .mainsec_txt{
+        font-size: 34px !important;
+        text-align: center;
+    }
+.mainsec_para{
+    font-size: 16px !important;
 }
-.header{
-    font-family: 'Poppins';
+.mainsec_btn{
+    font-size: 13px !important;
+    width: 120px !important;
+    
+}
+.subheading{
+    font-size: 15px !important;
+}
+.carouselpara{
+    font-size: 20px !important;
+}
+.btn_wrapper{
+    display: flex !important;
+    justify-content: center;
+}
+}
+@media only screen and (max-width:540px){
+    #photocenter{
+        align-items: center;
+        justify-content: center;
+        display: flex !important; 
+    }
+}
+    
+    *{
+        margin: 0px;
+        padding: 0%;
+    }
+    
+    .header{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+    .navbar-main{
+        justify-content: space-around;
+    }
+    #toplisting{
+        flex-basis: 750px;
+        justify-content: center;
+    }
+    
+    
+    .listing{
+        /* display: flex; */
+        white-space: nowrap;
+    }
+    
+    .navbar-listing{
+        padding: 0%;
+        margin: 0px;
+         list-style: none;
+         color: blue;
+         align-items: center;
+    }
+    
+    
+    #navitem{
+        padding:11px;
+    }
+    
+    .navlink{ 
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #05034E;
+       text-decoration: none;
+    }
+    
+    .container-right{
+        display: flex;
+        flex-basis: 525px;
+        justify-content: center;
+        padding-top: 20px;
+        align-items: center;
+    }
+    
+    .login{
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: #05034E;
+    }
     
-}
-.navbar-main{
-    justify-content: space-around;
-}
-
-.nav-link{
-    color: blue;
-}
-
-.listing{
-    display: flex;
-}
-
-.navbar-listing{
-    padding: 0%;
-    margin: 0px;
-     list-style: none;
-     color: blue;
-     align-items: center;
-}
-
-
-.navbar-list{
-    padding:11px;
-}
-
-.navlink{
-    
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #05034E;
-   text-decoration: none;
-}
-
-.container-right{
-    display: flex;
-    align-items: center;
-}
-
-.login{
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-text-decoration: none;
-color: #05034E;
-}
-
-.btn1{
-    margin-left: 25px;
-    font-size: 14px;
-text-transform: capitalize;
-color: #5856CE;
-border: solid;
-}
-.btn2{
-    font-size: 14px;
-    margin-left: 12px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-   color: white;
-     background: #5856CE;
-    border-radius: 4px;
-}
-/* sectionmain */
+    .btn1{    
+        margin-left: 9px;
+        font-size: 12px;
+    text-transform: capitalize;
+    color: #5856CE;
+    border: solid;
+    }
+    .btn2{
+        font-size: 12px;
+        margin-left: 5px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+       color: white;
+         background: #5856CE;
+        border-radius: 4px;
+    }
+/* para and bigimage */
 
 .mainsec_txt{
     font-family: 'Paytone One';
@@ -109,6 +160,11 @@ height: 45px;
 background: #5856CE;
 border-radius: 4px;
 }
+.imgwidth {
+width: 300px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
 
 /* mainsection */
 .main{
@@ -137,9 +193,10 @@ color: #120155;
 }
 
 .threebox{
-    width: 383px;
-    padding:25px;
-height: 366px;
+    margin-top: 20px;
+    width: 375px;
+    padding: 19px;
+    height: 363px;
 background: #FFFFFF;
 box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
 border-radius: 20px;
@@ -184,6 +241,7 @@ color: #120155;
 }
 .firstslide{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 .jump{
